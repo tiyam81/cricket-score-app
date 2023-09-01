@@ -1,7 +1,5 @@
 import streamlit as st
 import pandas as pd
-import sklearn
-import numpy as np
 import pickle
 pipe=pickle.load(open('pipe.pkl','rb'))
 teams=['Australia','Pakistan',
